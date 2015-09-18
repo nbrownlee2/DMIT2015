@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UnitTest" project="dmit2015-assignments-NicholasBrownlee" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="util.UnitTest" time="0.003">
+    <testcase name="testPowerOperator" classname="util.UnitTest" time="0.002"/>
+    <testcase name="testIntegerDvision" classname="util.UnitTest" time="0.001"/>
+  </testsuite>
+</testrun>

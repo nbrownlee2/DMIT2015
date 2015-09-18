@@ -1,0 +1,35 @@
+package ca.nait.dmit.domain;
+
+public class ChineseZodiac {
+	
+	private int birthYear;
+	
+	public ChineseZodiac() {
+		this.birthYear = birthYear;
+	}	
+	
+	public ChineseZodiac(int birthYear) {
+		super();
+		this.birthYear = birthYear;
+	}
+
+
+	public int getBirthYear() {
+		return birthYear;
+	}
+
+
+	public void setBirthYear(int birthYear) {
+		this.birthYear = birthYear;
+	}
+	
+	public static String animal(int birthYear) {
+		
+		String Animal = null;
+		
+		
+		return Animal;
+	}
+}
+
+

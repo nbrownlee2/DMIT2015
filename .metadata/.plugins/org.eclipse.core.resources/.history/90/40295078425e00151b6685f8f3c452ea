@@ -1,0 +1,79 @@
+package ca.nait.dmit.domain;
+
+/**
+ * This class is use to calculate a person's body mass index (BMI) and their BMI Category.
+ * @author Nicholas Brownlee
+ * @version 2015.01.16
+ */
+
+public class BMI {
+
+	private int weight;
+	private int height;
+
+	public BMI() {
+		this.weight = 0;
+		this.height = 0;
+	}
+
+	public BMI(int weight, int height) {
+		super();
+		this.weight = weight;
+		this.height = height;
+	}
+
+	public int getWeight() {
+		return weight;
+	}
+
+	public void setWeight(int weight) {
+		this.weight = weight;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public void setHeight(int height) {
+		this.height = height;
+	}
+
+	/**
+	 * Calculate the body mass index (BMI) using the weight and height of the person.
+	 * The BMI of a person is calculated using the formula: BMI = 700 * weight / (height * height)
+	 * where weight is in pounds and height is in inches.
+	 * @return the body mass index (BMI) value of the person
+	 */
+	public double bmi() {
+
+		int weight = 0;
+		int height = 0;
+		double BMI = 0;
+
+		BMI = (703 * weight) / (Math.pow(height, 2));
+		return BMI;
+	}
+
+	/**
+	 * This method is used to determine the BMI Category of a user by calling to
+	 * the bmi() method.
+	 * 
+	 * @return The BMI Category of the user.
+	 */
+	public String bmiCategory() {
+
+		String category = null;
+
+		if (bmi() > 18.5) {
+			category = "Underweight";
+		} else if (bmi() >= 18.5) {
+			category = "Normal";
+		} else if (bmi() >= 24.9) {
+			category = "Overweight";
+		} else {
+			category = "Obese";
+		}
+
+		return category;
+	}
+}

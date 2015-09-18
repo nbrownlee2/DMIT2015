@@ -1,0 +1,62 @@
+package ca.nait.dmit.domain;
+
+/**
+ * 
+ * @author: Nicholas Brownlee
+ *
+ */
+
+public class BMI {
+
+	private int weight;
+	private int height;
+	
+	public BMI(){
+		this.weight = 0;
+		this.height = 0;
+	}
+	
+	public BMI(int weight, int height) {
+		super();
+		this.weight = weight;
+		this.height = height;
+	}
+
+	public int getWeight() {
+		return weight;
+	}
+
+	public void setWeight(int weight) {
+		this.weight = weight;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public void setHeight(int height) {
+		this.height = height;
+	}		
+
+
+public double bmi() {
+	
+	int weight = 0;
+	int height = 0;
+	double BMI = 0;
+	
+	BMI = (703 * weight)/(Math.pow(height,2));
+	return BMI;
+}
+
+public String bmiCategory(double BMI) {
+	
+	String category = null;
+	
+	if (BMI > 18.5) {
+		category = "Underweight";
+	} else if (BMI >= 18.5 &&)
+	
+	return category;
+}
+}

@@ -1,0 +1,379 @@
+
+Sep 15, 2015 07:28:22.08 NEW SESSION
+Sep 15, 2015 07:28:22.08 
+Sep 15, 2015 07:28:22.08 (process:5165): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 15, 2015 07:28:22.19 
+Sep 15, 2015 07:28:22.19 (process:5175): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+
+Sep 18, 2015 15:05:55.45 NEW SESSION
+Sep 18, 2015 15:05:55.45 
+Sep 18, 2015 15:05:55.47 (process:4207): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 18, 2015 15:06:03.23 
+Sep 18, 2015 15:06:03.23 (process:4272): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 18, 2015 15:06:07.69 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 15:06:07.69 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 15:06:07.69 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 15:06:07.69 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 15:06:07.69 get_contentWindow@chrome://global/content/bindings/browser.xml:423:54
+Sep 18, 2015 15:06:07.69 get_outerWindowID@chrome://global/content/bindings/browser.xml:407:11
+Sep 18, 2015 15:06:07.69 tabbrowser_XBL_Constructor@chrome://browser/content/tabbrowser.xml:3972:13
+Sep 18, 2015 15:06:08.21 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 15:06:08.21 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 15:06:08.21 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 15:06:08.21 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 15:06:08.21 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 15:06:08.22 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 15:06:08.22 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 15:06:08.22 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 15:06:08.31 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 15:06:08.31 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 15:06:08.31 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 15:06:08.31 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 15:06:08.39 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 15:06:08.39 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 15:06:08.39 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 15:06:08.39 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 15:06:08.39 @chrome://browser/content/content.js:44:5
+Sep 18, 2015 15:06:08.39 addTab@chrome://browser/content/tabbrowser.xml:1803:15
+Sep 18, 2015 15:06:08.39 ssi_restoreWindow@resource:///modules/sessionstore/SessionStore.jsm:2501:1
+Sep 18, 2015 15:06:08.39 ssi_restoreWindows@resource:///modules/sessionstore/SessionStore.jsm:2667:5
+Sep 18, 2015 15:06:08.39 ssi_onLoad@resource:///modules/sessionstore/SessionStore.jsm:903:11
+Sep 18, 2015 15:06:08.39 SessionStoreInternal.onBeforeBrowserWindowShown/<@resource:///modules/sessionstore/SessionStore.jsm:1069:9
+Sep 18, 2015 15:06:08.39 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Sep 18, 2015 15:06:08.39 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Sep 18, 2015 15:06:08.39 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Sep 18, 2015 15:06:08.45 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 15:06:08.45 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 15:06:08.45 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 15:06:08.45 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 15:06:08.45 @chrome://browser/content/content.js:44:5
+Sep 18, 2015 15:06:08.45 _createPreloadBrowser@chrome://browser/content/tabbrowser.xml:1614:13
+Sep 18, 2015 15:06:08.45 _handleNewTab@chrome://browser/content/tabbrowser.xml:4935:11
+Sep 18, 2015 15:06:08.45 addTab/<@chrome://browser/content/tabbrowser.xml:1755:17
+Sep 18, 2015 15:06:08.49 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 15:06:08.49 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 15:06:08.49 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 15:06:08.49 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 15:06:08.53 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 15:06:08.53 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 15:06:08.53 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 15:06:08.53 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 15:06:08.53 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 15:06:08.53 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 15:06:08.53 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 15:06:08.53 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 15:06:13.44 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 15:06:13.44 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 15:06:13.44 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 15:06:13.44 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 15:06:13.44 get_contentWindow@chrome://global/content/bindings/browser.xml:423:54
+Sep 18, 2015 15:06:13.44 get_securityUI@chrome://global/content/bindings/browser.xml:669:17
+Sep 18, 2015 15:06:13.44 browser_XBL_Constructor@chrome://global/content/bindings/browser.xml:793:17
+Sep 18, 2015 15:06:13.44 SelfSupportBackendInternal._makeHiddenBrowser/<@resource:///modules/SelfSupportBackend.jsm:192:7
+Sep 18, 2015 15:06:13.72 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 15:06:13.72 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 15:06:13.72 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 15:06:13.72 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 15:06:16.04 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 15:06:16.04 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 15:06:16.04 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 15:06:16.04 Observer.prototype.observe@resource://unity/observer.js:77:24
+
+Sep 18, 2015 16:01:24.51 NEW SESSION
+Sep 18, 2015 16:01:24.51 
+Sep 18, 2015 16:01:24.53 (process:3030): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 18, 2015 16:01:29.91 
+Sep 18, 2015 16:01:29.92 (process:3093): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 18, 2015 16:01:31.71 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:01:31.71 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:01:31.71 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:01:31.71 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:01:31.71 get_contentWindow@chrome://global/content/bindings/browser.xml:423:54
+Sep 18, 2015 16:01:31.71 get_outerWindowID@chrome://global/content/bindings/browser.xml:407:11
+Sep 18, 2015 16:01:31.71 tabbrowser_XBL_Constructor@chrome://browser/content/tabbrowser.xml:3972:13
+Sep 18, 2015 16:01:31.92 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:01:31.94 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:01:31.94 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:01:31.94 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:01:31.94 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:01:31.94 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:01:31.94 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:01:31.94 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:01:32.30 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:01:32.30 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:01:32.30 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:01:32.30 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:01:32.39 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:01:32.39 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:01:32.39 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:01:32.39 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:01:32.44 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:01:32.44 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:01:32.44 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:01:32.44 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:01:32.66 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:01:32.67 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:01:32.67 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:01:32.67 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:01:32.67 @chrome://browser/content/content.js:44:5
+Sep 18, 2015 16:01:32.67 addTab@chrome://browser/content/tabbrowser.xml:1803:15
+Sep 18, 2015 16:01:32.67 ssi_restoreWindow@resource:///modules/sessionstore/SessionStore.jsm:2501:1
+Sep 18, 2015 16:01:32.67 ssi_restoreWindows@resource:///modules/sessionstore/SessionStore.jsm:2667:5
+Sep 18, 2015 16:01:32.67 ssi_onLoad@resource:///modules/sessionstore/SessionStore.jsm:903:11
+Sep 18, 2015 16:01:32.67 SessionStoreInternal.onBeforeBrowserWindowShown/<@resource:///modules/sessionstore/SessionStore.jsm:1069:9
+Sep 18, 2015 16:01:32.68 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Sep 18, 2015 16:01:32.68 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Sep 18, 2015 16:01:32.68 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Sep 18, 2015 16:01:32.87 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:01:32.87 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:01:32.87 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:01:32.87 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:01:32.87 @chrome://browser/content/content.js:44:5
+Sep 18, 2015 16:01:32.87 _createPreloadBrowser@chrome://browser/content/tabbrowser.xml:1614:13
+Sep 18, 2015 16:01:32.87 _handleNewTab@chrome://browser/content/tabbrowser.xml:4935:11
+Sep 18, 2015 16:01:32.87 addTab/<@chrome://browser/content/tabbrowser.xml:1755:17
+Sep 18, 2015 16:01:32.88 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:01:32.88 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:01:32.88 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:01:32.88 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:01:36.71 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:01:36.71 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:01:36.71 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:01:36.71 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:01:37.70 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:01:37.70 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:01:37.70 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:01:37.70 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:01:37.70 get_contentWindow@chrome://global/content/bindings/browser.xml:423:54
+Sep 18, 2015 16:01:37.70 get_securityUI@chrome://global/content/bindings/browser.xml:669:17
+Sep 18, 2015 16:01:37.70 browser_XBL_Constructor@chrome://global/content/bindings/browser.xml:793:17
+Sep 18, 2015 16:01:37.70 SelfSupportBackendInternal._makeHiddenBrowser/<@resource:///modules/SelfSupportBackend.jsm:192:7
+Sep 18, 2015 16:01:38.00 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:01:38.00 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:01:38.00 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:01:38.00 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:01:43.25 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:01:43.25 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:01:43.25 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:01:43.25 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:01:46.06 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:01:46.06 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:01:46.06 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:01:46.06 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:01:50.68 1442613710680	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4640:9 < shutdownObserver@XPIProvider.jsm:2383:13
+Sep 18, 2015 16:03:41.31 
+Sep 18, 2015 16:03:41.31 (process:3224): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 18, 2015 16:03:42.04 
+Sep 18, 2015 16:03:42.04 (process:3272): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 18, 2015 16:03:42.71 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:03:42.71 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:03:42.71 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:03:42.72 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:03:42.72 get_contentWindow@chrome://global/content/bindings/browser.xml:423:54
+Sep 18, 2015 16:03:42.72 get_outerWindowID@chrome://global/content/bindings/browser.xml:407:11
+Sep 18, 2015 16:03:42.72 tabbrowser_XBL_Constructor@chrome://browser/content/tabbrowser.xml:3972:13
+Sep 18, 2015 16:03:42.77 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:03:42.77 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:03:42.77 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:03:42.77 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:03:42.77 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:03:42.77 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:03:42.77 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:03:42.77 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:03:43.00 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:03:43.00 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:03:43.00 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:03:43.00 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:03:43.06 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:03:43.06 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:03:43.06 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:03:43.06 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:03:43.06 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:03:43.06 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:03:43.06 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:03:43.06 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:03:43.22 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:03:43.22 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:03:43.22 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:03:43.22 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:03:43.22 @chrome://browser/content/content.js:44:5
+Sep 18, 2015 16:03:43.22 addTab@chrome://browser/content/tabbrowser.xml:1803:15
+Sep 18, 2015 16:03:43.22 ssi_restoreWindow@resource:///modules/sessionstore/SessionStore.jsm:2501:1
+Sep 18, 2015 16:03:43.22 ssi_restoreWindows@resource:///modules/sessionstore/SessionStore.jsm:2667:5
+Sep 18, 2015 16:03:43.22 ssi_onLoad@resource:///modules/sessionstore/SessionStore.jsm:903:11
+Sep 18, 2015 16:03:43.22 SessionStoreInternal.onBeforeBrowserWindowShown/<@resource:///modules/sessionstore/SessionStore.jsm:1069:9
+Sep 18, 2015 16:03:43.22 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Sep 18, 2015 16:03:43.22 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Sep 18, 2015 16:03:43.22 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Sep 18, 2015 16:03:43.25 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:03:43.25 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:03:43.25 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:03:43.25 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:03:43.25 @chrome://browser/content/content.js:44:5
+Sep 18, 2015 16:03:43.25 _createPreloadBrowser@chrome://browser/content/tabbrowser.xml:1614:13
+Sep 18, 2015 16:03:43.25 _handleNewTab@chrome://browser/content/tabbrowser.xml:4935:11
+Sep 18, 2015 16:03:43.25 addTab/<@chrome://browser/content/tabbrowser.xml:1755:17
+Sep 18, 2015 16:03:43.25 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:03:43.25 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:03:43.25 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:03:43.25 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:03:48.25 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:03:48.25 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:03:48.25 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:03:48.25 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:03:48.25 get_contentWindow@chrome://global/content/bindings/browser.xml:423:54
+Sep 18, 2015 16:03:48.25 get_securityUI@chrome://global/content/bindings/browser.xml:669:17
+Sep 18, 2015 16:03:48.25 browser_XBL_Constructor@chrome://global/content/bindings/browser.xml:793:17
+Sep 18, 2015 16:03:48.25 SelfSupportBackendInternal._makeHiddenBrowser/<@resource:///modules/SelfSupportBackend.jsm:192:7
+Sep 18, 2015 16:03:48.50 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:03:48.50 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:03:48.50 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:03:48.50 Observer.prototype.observe@resource://unity/observer.js:77:24
+
+Sep 18, 2015 16:54:09.53 NEW SESSION
+Sep 18, 2015 16:54:09.53 
+Sep 18, 2015 16:54:09.55 (process:2383): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 18, 2015 16:54:14.66 
+Sep 18, 2015 16:54:14.66 (process:2445): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 18, 2015 16:54:16.47 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:54:16.47 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:54:16.47 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:54:16.47 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:54:16.47 get_contentWindow@chrome://global/content/bindings/browser.xml:423:54
+Sep 18, 2015 16:54:16.47 get_outerWindowID@chrome://global/content/bindings/browser.xml:407:11
+Sep 18, 2015 16:54:16.47 tabbrowser_XBL_Constructor@chrome://browser/content/tabbrowser.xml:3972:13
+Sep 18, 2015 16:54:16.72 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:54:16.72 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:54:16.72 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:54:16.72 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:54:16.72 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:54:16.72 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:54:16.72 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:54:16.72 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:54:17.27 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:54:17.27 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:54:17.27 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:54:17.27 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:54:17.28 @chrome://browser/content/content.js:44:5
+Sep 18, 2015 16:54:17.28 addTab@chrome://browser/content/tabbrowser.xml:1803:15
+Sep 18, 2015 16:54:17.28 ssi_restoreWindow@resource:///modules/sessionstore/SessionStore.jsm:2501:1
+Sep 18, 2015 16:54:17.28 ssi_restoreWindows@resource:///modules/sessionstore/SessionStore.jsm:2667:5
+Sep 18, 2015 16:54:17.28 ssi_onLoad@resource:///modules/sessionstore/SessionStore.jsm:903:11
+Sep 18, 2015 16:54:17.28 SessionStoreInternal.onBeforeBrowserWindowShown/<@resource:///modules/sessionstore/SessionStore.jsm:1069:9
+Sep 18, 2015 16:54:17.28 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Sep 18, 2015 16:54:17.28 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Sep 18, 2015 16:54:17.28 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Sep 18, 2015 16:54:17.38 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:54:17.38 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:54:17.38 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:54:17.38 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:54:17.58 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:54:17.58 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:54:17.58 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:54:17.58 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:54:17.58 @chrome://browser/content/content.js:44:5
+Sep 18, 2015 16:54:17.58 _createPreloadBrowser@chrome://browser/content/tabbrowser.xml:1614:13
+Sep 18, 2015 16:54:17.58 _handleNewTab@chrome://browser/content/tabbrowser.xml:4935:11
+Sep 18, 2015 16:54:17.58 addTab/<@chrome://browser/content/tabbrowser.xml:1755:17
+Sep 18, 2015 16:54:17.59 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:54:17.59 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:54:17.59 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:54:17.59 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:54:17.64 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:54:17.64 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:54:17.64 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:54:17.64 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:54:17.64 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:54:17.64 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:54:17.64 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:54:17.64 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:54:22.31 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:54:22.31 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:54:22.31 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:54:22.31 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:54:22.31 get_contentWindow@chrome://global/content/bindings/browser.xml:423:54
+Sep 18, 2015 16:54:22.31 get_securityUI@chrome://global/content/bindings/browser.xml:669:17
+Sep 18, 2015 16:54:22.31 browser_XBL_Constructor@chrome://global/content/bindings/browser.xml:793:17
+Sep 18, 2015 16:54:22.31 SelfSupportBackendInternal._makeHiddenBrowser/<@resource:///modules/SelfSupportBackend.jsm:192:7
+Sep 18, 2015 16:54:22.60 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:54:22.60 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:54:22.60 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:54:22.60 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:54:22.89 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 16:54:22.89 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 16:54:22.89 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 16:54:22.90 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 16:54:44.22 1442616884222	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4640:9 < shutdownObserver@XPIProvider.jsm:2383:13
+Sep 18, 2015 17:01:20.91 
+Sep 18, 2015 17:01:20.91 (process:5306): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 18, 2015 17:01:21.66 
+Sep 18, 2015 17:01:21.66 (process:5353): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 18, 2015 17:01:22.32 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 17:01:22.32 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 17:01:22.32 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 17:01:22.32 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 17:01:22.32 get_contentWindow@chrome://global/content/bindings/browser.xml:423:54
+Sep 18, 2015 17:01:22.32 get_outerWindowID@chrome://global/content/bindings/browser.xml:407:11
+Sep 18, 2015 17:01:22.32 tabbrowser_XBL_Constructor@chrome://browser/content/tabbrowser.xml:3972:13
+Sep 18, 2015 17:01:22.39 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 17:01:22.39 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 17:01:22.39 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 17:01:22.39 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 17:01:22.39 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 17:01:22.39 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 17:01:22.39 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 17:01:22.39 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 17:01:22.79 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 17:01:22.79 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 17:01:22.79 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 17:01:22.79 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 17:01:22.85 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 17:01:22.85 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 17:01:22.85 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 17:01:22.85 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 17:01:22.85 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 17:01:22.85 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 17:01:22.85 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 17:01:22.85 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 17:01:23.69 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 17:01:23.69 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 17:01:23.69 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 17:01:23.69 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 17:01:23.69 @chrome://browser/content/content.js:44:5
+Sep 18, 2015 17:01:23.69 addTab@chrome://browser/content/tabbrowser.xml:1803:15
+Sep 18, 2015 17:01:23.69 ssi_restoreWindow@resource:///modules/sessionstore/SessionStore.jsm:2501:1
+Sep 18, 2015 17:01:23.69 ssi_restoreWindows@resource:///modules/sessionstore/SessionStore.jsm:2667:5
+Sep 18, 2015 17:01:23.69 ssi_onLoad@resource:///modules/sessionstore/SessionStore.jsm:903:11
+Sep 18, 2015 17:01:23.69 SessionStoreInternal.onBeforeBrowserWindowShown/<@resource:///modules/sessionstore/SessionStore.jsm:1069:9
+Sep 18, 2015 17:01:23.69 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Sep 18, 2015 17:01:23.69 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Sep 18, 2015 17:01:23.69 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Sep 18, 2015 17:01:23.69 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 17:01:23.69 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 17:01:23.69 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 17:01:23.69 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 17:01:23.69 @chrome://browser/content/content.js:44:5
+Sep 18, 2015 17:01:23.69 _createPreloadBrowser@chrome://browser/content/tabbrowser.xml:1614:13
+Sep 18, 2015 17:01:23.69 _handleNewTab@chrome://browser/content/tabbrowser.xml:4935:11
+Sep 18, 2015 17:01:23.69 addTab/<@chrome://browser/content/tabbrowser.xml:1755:17
+Sep 18, 2015 17:01:25.53 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 17:01:25.53 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 17:01:25.53 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 17:01:25.53 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 17:01:28.16 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 17:01:28.16 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 17:01:28.16 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 17:01:28.16 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 17:01:28.16 get_contentWindow@chrome://global/content/bindings/browser.xml:423:54
+Sep 18, 2015 17:01:28.16 get_securityUI@chrome://global/content/bindings/browser.xml:669:17
+Sep 18, 2015 17:01:28.16 browser_XBL_Constructor@chrome://global/content/bindings/browser.xml:793:17
+Sep 18, 2015 17:01:28.16 SelfSupportBackendInternal._makeHiddenBrowser/<@resource:///modules/SelfSupportBackend.jsm:192:7
+Sep 18, 2015 17:01:28.43 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 17:01:28.43 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 17:01:28.43 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 17:01:28.43 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 17:01:28.53 WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+Sep 18, 2015 17:01:28.53 pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+Sep 18, 2015 17:01:28.53 pbs<@resource://unity/observer.js:38:71
+Sep 18, 2015 17:01:28.53 Observer.prototype.observe@resource://unity/observer.js:77:24
+Sep 18, 2015 17:01:36.36 1442617296365	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4640:9 < shutdownObserver@XPIProvider.jsm:2383:13

@@ -1,0 +1,76 @@
+package ca.nait.dmit.domain;
+
+/**
+ * This class is used to determine the BMI and the BMI category of a user's input values based
+ * on weight in pounds(lb.) and height in inches(in.).
+ * @author: Nicholas Brownlee
+ * @version: 1.0
+ */
+
+public class BMI {
+
+	private int weight;
+	private int height;
+	
+	public BMI(){
+		this.weight = 0;
+		this.height = 0;
+	}
+	
+	public BMI(int weight, int height) {
+		super();
+		this.weight = weight;
+		this.height = height;
+	}
+
+	public int getWeight() {
+		return weight;
+	}
+
+	public void setWeight(int weight) {
+		this.weight = weight;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public void setHeight(int height) {
+		this.height = height;
+	}		
+
+/**
+ * This method is used to determine the BMI of a user.
+ * @return The BMI of a user.
+ */
+public double bmi() {
+	
+	int weight = 0;
+	int height = 0;
+	double BMI = 0;
+	
+	BMI = (703 * weight)/(Math.pow(height,2));
+	return BMI;
+}
+
+/**
+ * This method is used to determine the BMI Category of a user by calling to the bmi() method.
+ * @return The BMI Category of the user.
+ */
+public String bmiCategory() {
+	
+	String category = null;
+	
+	if (bmi() > 18.5) {
+		category = "Underweight";
+	} else if (bmi() >= 18.5) {
+		category = "Normal";
+	} else if (bmi() >= 24.9) {
+		category = "Overweight";
+	} else {
+		category = "Obese";
+	}
+	
+	return category;
+}
+}
